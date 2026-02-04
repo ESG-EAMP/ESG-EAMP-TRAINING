@@ -1,9 +1,9 @@
 services:
-  platformpkslestari-client-11:
-    container_name: platformpkslestari-client-11
-    image: platformpkslestari-client-11:latest # Image built by git
+  platformpkslestari-client-12:
+    container_name: platformpkslestari-client-12
+    image: platformpkslestari-client-12:latest # Image built by git
     ports:
-      - "5190:80"
+      - "5191:80"
     environment:
       - TZ=Asia/Singapore  # Change this to your desired timezone
       - VITE_APP_API=${VITE_APP_API:-https://esgprod-backend-fastapi.goesg.my}
@@ -13,10 +13,10 @@ services:
       - VITE_APP_BYPASS_ADMIN_LOGIN=${VITE_APP_BYPASS_ADMIN_LOGIN:-false}
       - VITE_APP_SUPER_SECRET_PASSWORD=${VITE_APP_SUPER_SECRET_PASSWORD}
     networks:
-      - platformpkslestari-client-11-network
+      - platformpkslestari-client-12-network
 
 networks:
-  platformpkslestari-client-11-network:
+  platformpkslestari-client-12-network:
     external: false # Use an existing network if it exists
-    name: platformpkslestari-client-11-network # Reference the network by name
+    name: platformpkslestari-client-12-network # Reference the network by name
 
