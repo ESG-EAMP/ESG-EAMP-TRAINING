@@ -1,0 +1,639 @@
+[{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b01"
+  },
+  "title": "What is ESG?",
+  "description": "ESG stands for Environmental, Social and Governance. A holistic approach to sustainability that goes beyond CSR, demanding transparency and managing financial risks tied to sustainability efforts.",
+  "type": "Overview",
+  "category": "ESG & Sustainability",
+  "tags": "ESG, Sustainability, CSR",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assets/learning-materials/bursa-malaysia.png",
+  "external_url": "https://www.msmecompass.org/",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b02"
+  },
+  "title": "ESG Components: Environmental",
+  "description": "Emission management (GHG Protocol: Scope 1, 2 & 3), energy management, water management, and waste management — how a company impacts the planet.",
+  "type": "Component",
+  "category": "ESG & Sustainability",
+  "tags": "Environmental, GHG Protocol, Emissions",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assets/learning-materials/sdg-centre-kl.png",
+  "external_url": "https://ghgprotocol.org/",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b03"
+  },
+  "title": "ESG Components: Social",
+  "description": "Labour practices & standards, safety & health, employee benefits, and corporate social responsibility — how a company manages relationships with people and society.",
+  "type": "Component",
+  "category": "ESG & Sustainability",
+  "tags": "Social, Labour, CSR",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assets/learning-materials/sdg-centre-kl.png",
+  "external_url": "https://www.ilo.org/",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b04"
+  },
+  "title": "ESG Components: Governance",
+  "description": "Culture & commitment, integrity & anti‑corruption, risk governance & internal controls, strategic decision‑making, disclosure, transparency & data protection — how a company is governed and structured.",
+  "type": "Component",
+  "category": "ESG & Sustainability",
+  "tags": "Governance, Risk Management, Compliance",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assets/learning-materials/sdg-centre-kl.png",
+  "external_url": "https://oecd.org/corporate/",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b05"
+  },
+  "title": "What is Sustainability?",
+  "description": "Meeting present needs without compromising the ability of future generations to meet their own needs. — Brundtland Report, 1987.",
+  "type": "Definition",
+  "category": "ESG & Sustainability",
+  "tags": "Sustainability, Brundtland Report",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assets/learning-materials/malaysia-sdg.png",
+  "external_url": "https://sustainabledevelopment.un.org/content/documents/5987our-common-future.pdf",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b06"
+  },
+  "title": "Three Pillars of Sustainability",
+  "description": "Environmental: protect ecosystems, reduce emissions, manage resources responsibly. Social: equitable access, social justice & well‑being, cultural identity & community health. Economic: inclusive, resilient systems; fair trade and ethical business; responsible growth.",
+  "type": "Pillars",
+  "category": "ESG & Sustainability",
+  "tags": "Sustainability, Environmental, Social, Economic",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assets/learning-materials/malaysia-sdg.png",
+  "external_url": "https://sdgs.un.org/2030agenda",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b07"
+  },
+  "title": "What is SDG?",
+  "description": "Sustainable Development Goals: 17 global goals set by the United Nations in 2015, part of the 2030 Agenda for Sustainable Development.",
+  "type": "SDG",
+  "category": "ESG & Sustainability",
+  "tags": "SDG, UN, Sustainable Development",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assets/learning-materials/malaysia-sdg.png",
+  "external_url": "https://sdgs.un.org/goals",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b08"
+  },
+  "title": "SDG Icons",
+  "description": "The 17 SDG icons represent global priorities ranging from poverty and hunger to climate action, life below water, and partnerships.",
+  "type": "SDG Icons",
+  "category": "ESG & Sustainability",
+  "tags": "SDG, Icons, UN",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assets/learning-materials/malaysia-sdg.png",
+  "external_url": "https://www.un.org/sustainabledevelopment/sustainable-development-goals/",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b09"
+  },
+  "title": "In short: ESG, SDGs and Purpose",
+  "description": "SDGs provide the destination, ESG is the vehicle, and sustainability is the purpose. Malaysia commits to 45% reduction in GHG emissions intensity vs 2005 by 2030 and net‑zero by 2050.",
+  "type": "Summary",
+  "category": "ESG & Sustainability",
+  "tags": "ESG, SDG, Malaysia, Net Zero",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assets/learning-materials/nep.jpg",
+  "external_url": "https://www.economy.gov.my/",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b10"
+  },
+  "title": "CSI Bursa Malaysia",
+  "description": "Corporate Sustainability Index platform for Malaysian companies to track and report sustainability performance.",
+  "type": "Website",
+  "category": "Website & Platform",
+  "tags": "Bursa Malaysia, CSI, Sustainability Reporting",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assetsv2/banners/bursa.png",
+  "external_url": "https://csi.bursamalaysia.com/app/signin",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b11"
+  },
+  "title": "JC3 Malaysia",
+  "description": "Joint Committee on Climate Change Malaysia - providing climate-related financial risk management guidance.",
+  "type": "Website",
+  "category": "Website & Platform",
+  "tags": "JC3, Climate Change, Financial Risk",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assetsv2/banners/jc3.png",
+  "external_url": "https://www.jc3malaysia.com/",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b12"
+  },
+  "title": "ESG Hub Malaysia",
+  "description": "Comprehensive ESG assessment and reporting platform for Malaysian businesses.",
+  "type": "Assessment Tool",
+  "category": "Website & Platform",
+  "tags": "ESG Hub, Assessment, Reporting",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assetsv2/banners/smeesg.png",
+  "external_url": "https://www.esghub.my/assessment",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b13"
+  },
+  "title": "SDG Centre EKKL",
+  "description": "Sustainable Development Goals Centre for East, West, and Central Asia - regional sustainability resources.",
+  "type": "Resource Hub",
+  "category": "Website & Platform",
+  "tags": "SDG Centre, EKKL, Regional",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assetsv2/banners/sdg.png",
+  "external_url": "https://sdgcentrekl.com/",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b14"
+  },
+  "title": "SDG Centre Malaysia",
+  "description": "Official Malaysian SDG Centre providing local sustainability development goals guidance and resources.",
+  "type": "Resource Hub",
+  "category": "Website & Platform",
+  "tags": "SDG Centre, Malaysia, Official",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assetsv2/banners/sdg.png",
+  "external_url": "https://www.sdgcentre.gov.my/ms/",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b15"
+  },
+  "title": "Climate Change and Principle-based Taxonomy (CCPT), 2021",
+  "description": "The CCPT (2021) is Bank Negara Malaysia's framework for classifying economic activities by their environmental and climate alignment.",
+  "type": "Framework",
+  "category": "Resources",
+  "tags": "CCPT, Bank Negara, Taxonomy, Climate",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assets/learning-materials/ccpt.png",
+  "external_url": "https://www.bnm.gov.my/documents/20124/938039/Climate+Change+and+Principle-based+Taxonomy.pdf",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b16"
+  },
+  "title": "National Energy Transition Roadmap (NETR), 2023",
+  "description": "Malaysia's strategic blueprint to shift its energy system from fossil fuels toward low-carbon, renewable sources by 2050.",
+  "type": "Framework",
+  "category": "Resources",
+  "tags": "NETR, Energy Transition, Malaysia",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assets/learning-materials/netr.jpg",
+  "external_url": "https://ekonomi.gov.my/sites/default/files/2023-08/National%20Energy%20Transition%20Roadmap.pdf",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b17"
+  },
+  "title": "New Industrial Master Plan 2030 (NIMP), 2023",
+  "description": "Malaysia's mission-based framework to transform the manufacturing sector through higher value creation, technology, and green growth.",
+  "type": "Framework",
+  "category": "Resources",
+  "tags": "NIMP, Industrial Plan, Manufacturing",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assets/learning-materials/nimp.png",
+  "external_url": "https://www.nimp2030.gov.my/",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b18"
+  },
+  "title": "National Sustainability Reporting Framework (NSRF), 2024",
+  "description": "Malaysia's framework to enhance corporate sustainability disclosures by adopting ISSB standards.",
+  "type": "Framework",
+  "category": "Resources",
+  "tags": "NSRF, Reporting, ISSB",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assets/learning-materials/nsrf.png",
+  "external_url": "https://www.sc.com.my/nsrf",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b19"
+  },
+  "title": "National National Climate Change Policy 2.0, 2024",
+  "description": "An umbrella policy guiding Malaysia's transition to a low-carbon economy with clear pathways for governance, adaptation, climate financing and net-zero by 2050.",
+  "type": "Policy",
+  "category": "Resources",
+  "tags": "Climate Change, Policy, Net Zero",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assets/learning-materials/nccp.png",
+  "external_url": "https://www.nres.gov.my/ms-my/pustakamedia/Penerbitan/National%20Policy%20on%20Climate%20Change%202.0.pdf",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b20"
+  },
+  "title": "NATIONAL ENERGY POLICY 2022-2040",
+  "description": "Malaysia's long-term policy guiding the energy sector towards a low-carbon future, balancing energy security, affordability and environmental sustainability through 12 strategic thrusts and 31 action plans.",
+  "type": "Policy",
+  "category": "Resources",
+  "tags": "Energy Policy, Malaysia, Low Carbon",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assets/learning-materials/nep.jpg",
+  "external_url": "https://ekonomi.gov.my/sites/default/files/2022-09/National_Energy_Policy_2022-2040.pdf",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b21"
+  },
+  "title": "SIRIM 55 ESG Management System Certification",
+  "description": "A Malaysian certification standard that enables organisations to build, implement, maintain, and continually improve a management system for environmental, social, and governance (ESG) practices",
+  "type": "Certificates",
+  "category": "Certification",
+  "tags": "SIRIM, Certification, ESG Management",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assets/learning-materials/esg-sirim.jpg",
+  "external_url": "https://www.sirim-qas.com.my/service/sirim-55-esg-management-system-certification/?utm",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b22"
+  },
+  "title": "ISO 14001: Environmental Management Systems",
+  "description": "The ISO 14001 standard provides a framework for organizations to manage their environmental responsibilities through effective environmental management systems.",
+  "type": "Certificates",
+  "category": "Certification",
+  "tags": "ISO 14001, Environmental Management, ISO",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assets/learning-materials/iso-14001.png",
+  "external_url": "https://www.sirim-qas.com.my/service/iso-14001-environmental-management-system-ems/",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b23"
+  },
+  "title": "ISO 45001: Occupational Health and Safety Management Systems",
+  "description": "The ISO 45001 standard provides a framework for managing occupational health and safety risks to create safer and healthier workplaces.",
+  "type": "Certificates",
+  "category": "Certification",
+  "tags": "ISO 45001, Health and Safety, ISO",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assets/learning-materials/iso-45001.jpg",
+  "external_url": "https://www.sirim-qas.com.my/service/iso-45001-occupational-health-and-safety-ohs/",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b24"
+  },
+  "title": "MyHIJAU MARK",
+  "description": "The MyHIJAU Mark is Malaysia's official government-endorsed green label that certifies products and services meeting environmental standards, aiding consumer choices and green procurement.",
+  "type": "Certificates",
+  "category": "Certification",
+  "tags": "MyHIJAU, Green Label, Certification",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assets/learning-materials/my-hijau.png",
+  "external_url": "https://www.myhijau.my/",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b25"
+  },
+  "title": "Low Carbon Transition Facility (LCTF)",
+  "description": "A financing facility by Bank Negara Malaysia that supports SMEs in adopting low-carbon practices and technologies.",
+  "type": "Incentives",
+  "category": "Financing & Incentives",
+  "tags": "LCTF, Bank Negara, Financing, Low Carbon",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assets/learning-materials/lctf.jpg",
+  "external_url": "https://www.bnm.gov.my/documents/20124/6025157/lctf_broc_en.pdf",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b26"
+  },
+  "title": "Green Technology Financing Scheme (GTFS) 4.0",
+  "description": "A government financing initiative that supports companies in implementing green projects through guaranteed financing and interest rebates.",
+  "type": "Financing Initiative",
+  "category": "Financing & Incentives",
+  "tags": "GTFS, Green Technology, Financing",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assets/learning-materials/gtfs.png",
+  "external_url": "https://www.myhijau.my/gtfs?utm ",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b27"
+  },
+  "title": "Investment and Foreign Investment Accelerator Fund (DIAF-ESG)",
+  "description": "A funding programme designed to support companies in accelerating ESG adoption and attracting quality investments.",
+  "type": "Fund",
+  "category": "Financing & Incentives",
+  "tags": "DIAF-ESG, Investment, Funding",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assets/learning-materials/mida.png",
+  "external_url": "https://www.mida.gov.my/wp-content/uploads/2024/04/DIAF-ESG-Guidelines-1.pdf",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b28"
+  },
+  "title": "GreenBizReady by CIMB",
+  "description": "A programme that helps SMEs build climate resilience and adopt sustainable practices through assessments, training, and advisory support.",
+  "type": "Financial Initiative",
+  "category": "Financing & Incentives",
+  "tags": "GreenBizReady, CIMB, Climate Resilience",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assets/learning-materials/cimb-logo.png",
+  "external_url": "https://www.cimb.com.my/en/business/business-solutions/solutions/greenbizready.html",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb8a960e533e34e4002b29"
+  },
+  "title": "High Tech & Green Facility (HTG) by SME Bank",
+  "description": "A financing initiative that supports SMEs in adopting high technology and green practices to enhance competitiveness and sustainability.",
+  "type": "Financial Initiative",
+  "category": "Financing & Incentives",
+  "tags": "HTG, SME Bank, Financing, Green Technology",
+  "status": "Published",
+  "content": "",
+  "image_url": "/assets/learning-materials/sme-bank.png",
+  "external_url": "https://www.smebank.com.my/ms/high-tech-green-facility-htg-",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updatedAt": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_by": "68eb20df41960a5b206724df"
+}]
+

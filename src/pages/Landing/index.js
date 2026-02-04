@@ -1,0 +1,9 @@
+export { default as Home } from './Landing';
+export { default as LearningMaterials } from './LearningMaterials';
+export { default as LearningMaterialDetail } from './LearningMaterialDetail';
+export { default as Blogs } from './Blogs';
+export { default as Events } from './Event/Events';
+export { default as EventPreview } from './Event/EventPreview';
+export { default as ContactUs } from './ContactUs';
+export { default as About } from './About';
+export { default as PKSlestari } from './PKSlestari'; 

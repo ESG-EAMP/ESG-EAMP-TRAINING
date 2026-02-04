@@ -1,0 +1,91 @@
+name: Build and Deploy platformpkslestari-frontend to VPS
+
+on:
+  push:
+    branches:
+      - client-1
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    env:
+      VPS_HOST: ${{ secrets.VPS_HOST }}
+      VPS_PASSWORD: ${{ secrets.VPS_PASSWORD }}
+      REMOTE_PATH: /root/platformpkslestari/frontend/production
+      IMAGE_NAME: platformpkslestari-frontend
+      DOCKER_COMPOSE_REMOTE: docker-compose.remote.production.yml
+      DOCKER_COMPOSE: docker-compose.production.yml
+
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v2
+      - name: Get version from latest tag or commit hash
+        id: get_ersion
+        run: |
+          # Get the latest tag or use the short commit hash as fallback
+          TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
+          if [ -z "$TAG" ]; then
+            VERSION=$(git rev-parse --short HEAD)
+            echo "No tag found. Using commit hash as version: $VERSION"
+          else
+            VERSION=$TAG
+            echo "Using latest tag as version: $VERSION"
+          fi
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+      - name: Create .env file
+        run: |
+          cat <<EOT >> .env
+          VITE_APP_API=https://esgprod-backend-fastapi.goesg.my
+          VITE_APP_PORT=5173
+          VITE_APP_SUPER_SECRET_PASSWORD=3SOER08pu2TOsj4JhT64waitqsgddVs1rMEPgdJHRF5k9VHwoJ7FbLg2hxKwKAavJNgi
+          VITE_OPENAI_API_KEY=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
+          VITE_APP_BYPASS_USER_LOGIN=false
+          VITE_APP_BYPASS_ADMIN_LOGIN=false
+          EOT
+
+      - name: Set up Docker
+        uses: docker/setup-buildx-action@v2
+      - name: Install Docker Compose
+        run: |
+          sudo curl -L "https://github.com/docker/compose/releases/download/$(curl -s https://api.github.com/repos/docker/compose/releases/latest | jq -r .tag_name)/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+          sudo chmod +x /usr/local/bin/docker-compose
+      - name: Build Docker Compose
+        run: docker-compose -f ${{ env.DOCKER_COMPOSE }} build
+      - name: Tag Docker image
+        run: docker tag ${{ env.IMAGE_NAME }}:latest ${{ env.IMAGE_NAME }}:latest
+      - name: Save Docker image as tar archive
+        run: docker save -o ${{ env.IMAGE_NAME }}_${{ env.VERSION }}.tar ${{ env.IMAGE_NAME }}:latest
+      - name: Install sshpass
+        run: sudo apt-get install -y sshpass
+      - name: Sending files to VPS
+        env:
+          VPS_PASSWORD: ${{ env.VPS_PASSWORD }}
+        run: |
+          echo "Creating ${{ env.REMOTE_PATH }} directory if it does not exist..."
+          sshpass -p "$VPS_PASSWORD" ssh -o StrictHostKeyChecking=no root@${{ env.VPS_HOST }} "mkdir -p ${{ env.REMOTE_PATH }}"
+
+          echo "Copying the Docker image file..."
+          sshpass -p "$VPS_PASSWORD" scp -v -o StrictHostKeyChecking=no ${{ env.IMAGE_NAME }}_${{ env.VERSION }}.tar root@${{ env.VPS_HOST }}:${{ env.REMOTE_PATH }}/${{ env.IMAGE_NAME }}_${{ env.VERSION }}.tar
+
+          echo "Copying the remote Docker Compose file..."
+          sshpass -p "$VPS_PASSWORD" scp -v -o StrictHostKeyChecking=no ${{ env.DOCKER_COMPOSE_REMOTE }} root@${{ env.VPS_HOST }}:${{ env.REMOTE_PATH }}/docker-compose.yml
+      - name: Deploy on VPS
+        env:
+          VPS_PASSWORD: ${{ env.VPS_PASSWORD }}
+        run: |-
+          sshpass -p "$VPS_PASSWORD" ssh -o StrictHostKeyChecking=no root@${{ env.VPS_HOST }} << EOF
+            # Load the Docker image from the tar file
+            docker load -i ${{ env.REMOTE_PATH }}/${{ env.IMAGE_NAME }}_${{ env.VERSION }}.tar
+
+            # Navigate to the Docker Compose directory
+            cd ${{ env.REMOTE_PATH }}
+
+            # Stop and remove any existing containers
+            docker-compose down
+
+            # Run Docker Compose to start the service with the loaded image
+            docker-compose up -d
+
+            # Clean up the tar file
+
+          EOF

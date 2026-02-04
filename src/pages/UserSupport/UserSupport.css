@@ -1,0 +1,20 @@
+.card.border-primary {
+    border-color: #727cf5 !important;
+}
+
+.card.border-success {
+    border-color: #28a745 !important;
+}
+
+.card.border-secondary {
+    border-color: #6c757d !important;
+}
+
+.badge-icon {
+    font-size: 5rem;
+}
+
+.star {
+    cursor: pointer;
+    font-size: 3rem; 
+}

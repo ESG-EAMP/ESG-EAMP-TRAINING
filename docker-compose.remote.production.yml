@@ -1,0 +1,22 @@
+services:
+  platformpkslestari-frontend:
+    container_name: platformpkslestari-frontend
+    image: platformpkslestari-frontend:latest # Image built by git
+    ports:
+      - "5173:80"
+    environment:
+      - TZ=Asia/Singapore  # Change this to your desired timezone
+      - VITE_APP_API=${VITE_APP_API:-https://esgprod-backend-fastapi.goesg.my}
+      - VITE_APP_PORT=${VITE_APP_PORT:-5173}
+      - VITE_OPENAI_API_KEY=${VITE_OPENAI_API_KEY}
+      - VITE_APP_BYPASS_USER_LOGIN=${VITE_APP_BYPASS_USER_LOGIN:-false}
+      - VITE_APP_BYPASS_ADMIN_LOGIN=${VITE_APP_BYPASS_ADMIN_LOGIN:-false}
+      - VITE_APP_SUPER_SECRET_PASSWORD=${VITE_APP_SUPER_SECRET_PASSWORD}
+    networks:
+      - platformpkslestari-frontend-network
+
+networks:
+  platformpkslestari-frontend-network:
+    external: false # Use an existing network if it exists
+    name: platformpkslestari-frontend-network # Reference the network by name
+

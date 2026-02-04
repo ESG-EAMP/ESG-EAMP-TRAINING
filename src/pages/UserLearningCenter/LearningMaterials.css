@@ -1,0 +1,170 @@
+/* Learning Centre Page - JC3 Inspired Styling */
+
+.category-icon {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+}
+
+.category-icon.success {
+  background: linear-gradient(135deg, #28a745, #20c997);
+}
+
+.category-icon.primary {
+  background: linear-gradient(135deg, #007bff, #6610f2);
+}
+
+.category-icon.info {
+  background: linear-gradient(135deg, #17a2b8, #6f42c1);
+}
+
+.category-icon.warning {
+  background: linear-gradient(135deg, #ffc107, #fd7e14);
+}
+
+.category-icon.secondary {
+  background: linear-gradient(135deg, #6c757d, #495057);
+}
+
+.category-icon.danger {
+  background: linear-gradient(135deg, #dc3545, #e83e8c);
+}
+
+.material-card {
+  transition: all 0.3s ease;
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.material-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.material-card .card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.material-card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+.material-card .category-badge {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+}
+
+.material-card .card-title {
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+.material-card .card-text {
+  line-height: 1.6;
+  color: #6c757d;
+}
+
+.material-card .btn-link {
+  color: var(--bs-primary);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.material-card .btn-link:hover {
+  color: var(--bs-primary);
+  transform: translateX(5px);
+}
+
+.empty-state {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.empty-state .empty-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  opacity: 0.5;
+}
+
+.empty-state h5 {
+  color: #6c757d;
+  margin-bottom: 0.5rem;
+}
+
+.empty-state p {
+  color: #6c757d;
+  margin-bottom: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .learning-materials-hero h1 {
+    font-size: 2rem !important;
+  }
+  
+  .learning-materials-hero p {
+    font-size: 1rem !important;
+  }
+  
+  .category-icon {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .material-card {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Loading spinner */
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+/* JC3 inspired button styles */
+.jc3-btn {
+  border-radius: 50px;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.jc3-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.jc3-btn-primary {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+}
+
+.jc3-btn-primary:hover {
+  background: linear-gradient(135deg, #5a6fd8, #6a4190);
+  color: white;
+}
+
+.jc3-btn-light {
+  background: rgba(255,255,255,0.9);
+  color: #333;
+  backdrop-filter: blur(10px);
+}
+
+.jc3-btn-light:hover {
+  background: rgba(255,255,255,1);
+  color: #333;
+}
+

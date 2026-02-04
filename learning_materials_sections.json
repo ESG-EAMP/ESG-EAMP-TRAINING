@@ -1,0 +1,127 @@
+[{
+  "_id": {
+    "$oid": "68eb5c3369a76349e7564d401"
+  },
+  "title": "ESG & Sustainability",
+  "description": "This section introduces the core concepts of Environmental, Social, and Governance (ESG) principles and sustainability. It helps MSMEs understand how responsible practices can enhance long-term business value, align with global standards, and support Malaysia's sustainable development agenda.",
+  "content": "",
+  "category": "ESG & Sustainability",
+  "status": "Published",
+  "order": 1,
+  "image_url": null,
+  "external_url": "",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb5c3369a76349e7564d402"
+  },
+  "title": "Website & Platform",
+  "description": "Discover essential websites and digital platforms that provide tools, resources, and guidance for ESG implementation, sustainability reporting, and climate risk management.",
+  "content": "",
+  "category": "Website & Platform",
+  "status": "Published",
+  "order": 2,
+  "image_url": null,
+  "external_url": "",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb5c3369a76349e7564d403"
+  },
+  "title": "Resources",
+  "description": "Access key policy documents, frameworks, and guidelines from Malaysian government agencies and international organizations that shape ESG practices and sustainability standards.",
+  "content": "",
+  "category": "Resources",
+  "status": "Published",
+  "order": 3,
+  "image_url": null,
+  "external_url": "",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb5c3369a76349e7564d404"
+  },
+  "title": "Certification",
+  "description": "Explore certification programs and standards that help MSMEs demonstrate their commitment to environmental, social, and governance excellence through recognized credentials.",
+  "content": "",
+  "category": "Certification",
+  "status": "Published",
+  "order": 4,
+  "image_url": null,
+  "external_url": "",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb5c3369a76349e7564d405"
+  },
+  "title": "Financing & Incentives",
+  "description": "Learn about financial facilities, grants, and incentive programs available to support MSMEs in adopting sustainable practices, green technologies, and ESG initiatives.",
+  "content": "",
+  "category": "Financing & Incentives",
+  "status": "Published",
+  "order": 5,
+  "image_url": null,
+  "external_url": "",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updated_by": "68eb20df41960a5b206724df"
+},
+{
+  "_id": {
+    "$oid": "68eb5c3369a76349e7564d406"
+  },
+  "title": "ESG Champion",
+  "description": "Discover success stories, best practices, and leadership examples from organizations that have excelled in ESG implementation and sustainability transformation.",
+  "content": "",
+  "category": "ESG Champion",
+  "status": "Published",
+  "order": 6,
+  "image_url": null,
+  "external_url": "",
+  "created_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2026-01-10T08:00:00.000Z"
+  },
+  "created_by": "68eb20df41960a5b206724df",
+  "updated_by": "68eb20df41960a5b206724df"
+}]
+

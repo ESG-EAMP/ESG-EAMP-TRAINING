@@ -1,0 +1,64 @@
+/* Section wrappers */
+.ua-section { margin-bottom: 1.5rem; }
+.ua-section-header { margin-bottom: 0.75rem; }
+.ua-title { color: #495057; font-weight: 700; font-size: 1rem; margin: 0; }
+.ua-subtitle { color: #6c757d; font-size: 0.85rem; margin: 0; }
+
+/* Scores section background */
+.ua-scores { background: #f8f9fb; border: 1px solid #e9ecef; border-radius: 8px; padding: 1rem; }
+
+/* Compact score cards */
+.ua-score-card { border: 1px solid #e9ecef; box-shadow: none; }
+.ua-score-env { border-top: 3px solid #28a745; }
+.ua-score-soc { border-top: 3px solid #17a2b8; }
+.ua-score-gov { border-top: 3px solid #fd7e14; }
+.ua-score-overall { border-top: 3px solid #6f42c1; }
+.ua-score-value { font-size: 2rem; font-weight: 800; color: #212529; }
+.ua-score-label { font-size: 0.85rem; color: #6c757d; text-transform: uppercase; letter-spacing: .5px; }
+
+/* Divider between sections */
+.ua-divider { height: 1px; background: #e9ecef; margin: 1rem 0; }
+
+/* Badge cards styling */
+.ua-badges .ua-badge-card { border: 1px solid #e9ecef; box-shadow: 0 2px 6px rgba(0,0,0,.05); }
+.ua-earned-pill { font-size: 0.7rem; }
+
+/* Base simple styles retained */
+.badge-icon { font-size: 2.25rem; margin-bottom: .5rem; }
+.card-title { font-weight: 600; color: #495057; }
+.card-text { color: #6c757d; font-size: 0.9rem; }
+.progress { height: 0.75rem; }
+.progress-bar { line-height: 0.75rem; font-size: 0.7rem; }
+
+/* Alert Styling */
+.alert {
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.alert-info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+}
+
+.alert-secondary {
+    background-color: #e2e3e5;
+    color: #383d41;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .col-3 {
+        margin-bottom: 1rem;
+    }
+    
+    .ua-score-value { font-size: 1.6rem; }
+    
+    .badge-icon { font-size: 2rem; }
+}

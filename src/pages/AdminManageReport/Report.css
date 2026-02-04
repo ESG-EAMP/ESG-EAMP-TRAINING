@@ -1,0 +1,150 @@
+.file-border {
+  border: 1px solid #6c757d;
+}
+
+/* File Manager Animations */
+.file-manager-container {
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Company Folder Animations */
+.company-folder-item {
+  animation: fadeInUp 0.5s ease-out forwards;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.company-folder-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.company-folder-item:nth-child(1) { animation-delay: 0.05s; }
+.company-folder-item:nth-child(2) { animation-delay: 0.1s; }
+.company-folder-item:nth-child(3) { animation-delay: 0.15s; }
+.company-folder-item:nth-child(4) { animation-delay: 0.2s; }
+.company-folder-item:nth-child(5) { animation-delay: 0.25s; }
+.company-folder-item:nth-child(6) { animation-delay: 0.3s; }
+.company-folder-item:nth-child(7) { animation-delay: 0.35s; }
+.company-folder-item:nth-child(8) { animation-delay: 0.4s; }
+.company-folder-item:nth-child(n+9) { animation-delay: 0.45s; }
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* File Item Animations */
+.file-item {
+  animation: fadeInScale 0.4s ease-out forwards;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.file-item:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15) !important;
+}
+
+.file-item:nth-child(1) { animation-delay: 0.05s; }
+.file-item:nth-child(2) { animation-delay: 0.1s; }
+.file-item:nth-child(3) { animation-delay: 0.15s; }
+.file-item:nth-child(4) { animation-delay: 0.2s; }
+.file-item:nth-child(5) { animation-delay: 0.25s; }
+.file-item:nth-child(6) { animation-delay: 0.3s; }
+.file-item:nth-child(7) { animation-delay: 0.35s; }
+.file-item:nth-child(8) { animation-delay: 0.4s; }
+.file-item:nth-child(n+9) { animation-delay: 0.45s; }
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Slide Transition for View Changes */
+.company-files-section {
+  animation: slideInRight 0.4s ease-out;
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.company-folder-section {
+  animation: slideInLeft 0.4s ease-out;
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Back Button Animation */
+.back-button {
+  transition: all 0.3s ease;
+}
+
+.back-button:hover {
+  transform: translateX(-5px);
+  padding-left: 0.75rem;
+}
+
+.back-button:hover i {
+  transform: translateX(-3px);
+}
+
+.back-button i {
+  transition: transform 0.3s ease;
+}
+
+/* Folder Icon Animation */
+.company-folder-item .avatar-title {
+  transition: all 0.3s ease;
+}
+
+.company-folder-item:hover .avatar-title {
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+}
+
+/* File Icon Animation */
+.file-item:hover .font-16 {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}

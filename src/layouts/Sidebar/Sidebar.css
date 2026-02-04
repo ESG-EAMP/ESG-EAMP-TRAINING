@@ -1,0 +1,13 @@
+.leftside-menu{
+    background-color: #263637 !important;
+}
+
+.menuitem-active{
+    color : white !important;
+    font-weight: bold;
+}
+
+.menuitem-inactive{
+    color : #6C757D !important;
+    font-weight: normal;
+}

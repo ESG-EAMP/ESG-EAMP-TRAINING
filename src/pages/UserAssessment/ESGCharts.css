@@ -1,0 +1,152 @@
+/* ESG Charts Info Button and Tooltip Styles */
+.chart-card {
+    position: relative;
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.chart-header {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.chart-info-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 32px;
+    height: 32px;
+    background: #f8f9fa;
+    border: 2px solid #e9ecef;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+.chart-info-button:hover {
+    background: #007bff;
+    border-color: #007bff;
+    color: white;
+    transform: scale(1.1);
+}
+
+.chart-info-button i {
+    font-size: 14px;
+    color: #6c757d;
+    transition: color 0.3s ease;
+}
+
+.chart-info-button:hover i {
+    color: white;
+}
+
+.chart-tooltip {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 320px;
+    background: white;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    animation: tooltipFadeIn 0.3s ease-out;
+}
+
+.tooltip-content {
+    padding: 16px;
+}
+
+.tooltip-content h6 {
+    margin: 0 0 8px 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #495057;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tooltip-content p {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #6c757d;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Tooltip arrow */
+.chart-tooltip::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    right: 20px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid white;
+}
+
+.chart-tooltip::after {
+    content: '';
+    position: absolute;
+    top: -9px;
+    right: 20px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #e9ecef;
+}
+
+@keyframes tooltipFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .chart-tooltip {
+        width: 280px;
+        right: -10px;
+    }
+    
+    .tooltip-content {
+        padding: 12px;
+    }
+    
+    .tooltip-content h6 {
+        font-size: 13px;
+    }
+    
+    .tooltip-content p {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 576px) {
+    .chart-tooltip {
+        width: 250px;
+        right: -20px;
+    }
+    
+    .chart-info-button {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .chart-info-button i {
+        font-size: 12px;
+    }
+}

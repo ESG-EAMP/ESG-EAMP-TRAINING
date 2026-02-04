@@ -1,0 +1,24 @@
+services:
+  platformpkslestari-frontend:
+    container_name: platformpkslestari-frontend
+    build:
+      context: .
+      dockerfile: dockerfile.production
+    image: platformpkslestari-frontend:latest # Customize the image name and tag here
+    ports:
+      - "5173:80"
+    environment:
+      - TZ=Asia/Singapore
+      - VITE_APP_API=${VITE_APP_API:-https://esgprod-backend-fastapi.goesg.my}
+      - VITE_APP_PORT=${VITE_APP_PORT:-5173}
+      - VITE_OPENAI_API_KEY=${VITE_OPENAI_API_KEY}
+      - VITE_APP_BYPASS_USER_LOGIN=${VITE_APP_BYPASS_USER_LOGIN:-false}
+      - VITE_APP_BYPASS_ADMIN_LOGIN=${VITE_APP_BYPASS_ADMIN_LOGIN:-false}
+      - VITE_APP_SUPER_SECRET_PASSWORD=${VITE_APP_SUPER_SECRET_PASSWORD}
+    networks:
+      - platformpkslestari-frontend-network
+
+networks:
+  platformpkslestari-frontend-network:
+    driver: bridge
+

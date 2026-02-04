@@ -1,0 +1,84 @@
+.endpoint-group {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.endpoint-group-header {
+  padding: 12px 15px;
+  background-color: #f8f9fa;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.endpoint-group-header:hover {
+  background-color: #e9ecef;
+}
+
+.endpoint-list {
+  background-color: #fff;
+}
+
+.endpoint-item {
+  padding: 10px 15px 10px 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background-color 0.2s;
+  font-size: 14px;
+}
+
+.endpoint-item:hover {
+  background-color: #f8f9fa;
+}
+
+.endpoint-item.active {
+  background-color: #e7f3ff;
+  border-left: 3px solid #0d6efd;
+}
+
+.method-badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  font-size: 11px;
+  min-width: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.endpoint-name {
+  flex: 1;
+  font-size: 13px;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.api-tester-container .card {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border: none;
+  margin-bottom: 20px;
+}
+
+.card-header {
+  border-bottom: 2px solid rgba(0,0,0,0.1);
+}
+
+.form-control.font-monospace {
+  font-family: 'Courier New', monospace;
+  font-size: 13px;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+
