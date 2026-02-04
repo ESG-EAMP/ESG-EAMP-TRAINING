@@ -1,12 +1,12 @@
 services:
-  platformpkslestari-client-8:
-    container_name: platformpkslestari-client-8
+  platformpkslestari-client-9:
+    container_name: platformpkslestari-client-9
     build:
       context: .
       dockerfile: dockerfile.production
-    image: platformpkslestari-client-8:latest # Customize the image name and tag here
+    image: platformpkslestari-client-9:latest # Customize the image name and tag here
     ports:
-      - "5187:80"
+      - "5188:80"
     environment:
       - TZ=Asia/Singapore
       - VITE_APP_API=${VITE_APP_API:-https://esgprod-backend-fastapi.goesg.my}
@@ -16,9 +16,9 @@ services:
       - VITE_APP_BYPASS_ADMIN_LOGIN=${VITE_APP_BYPASS_ADMIN_LOGIN:-false}
       - VITE_APP_SUPER_SECRET_PASSWORD=${VITE_APP_SUPER_SECRET_PASSWORD}
     networks:
-      - platformpkslestari-client-8-network
+      - platformpkslestari-client-9-network
 
 networks:
-  platformpkslestari-client-8-network:
+  platformpkslestari-client-9-network:
     driver: bridge
 
