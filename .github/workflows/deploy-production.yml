@@ -1,4 +1,4 @@
-name: Build and Deploy platformpkslestari-frontend to VPS
+name: Build and Deploy client-1 
 
 on:
   push:
@@ -11,7 +11,7 @@ jobs:
     env:
       VPS_HOST: ${{ secrets.VPS_HOST }}
       VPS_PASSWORD: ${{ secrets.VPS_PASSWORD }}
-      REMOTE_PATH: /root/platformpkslestari/frontend/production
+      REMOTE_PATH: /root/platformpkslestari/frontend/client-1/production
       IMAGE_NAME: platformpkslestari-frontend
       DOCKER_COMPOSE_REMOTE: docker-compose.remote.production.yml
       DOCKER_COMPOSE: docker-compose.production.yml
@@ -35,7 +35,7 @@ jobs:
       - name: Create .env file
         run: |
           cat <<EOT >> .env
-          VITE_APP_API=https://esgprod-backend-fastapi.goesg.my
+          VITE_APP_API=https://esgstaging-backend-fastapi.goesg.my
           VITE_APP_PORT=5173
           VITE_APP_SUPER_SECRET_PASSWORD=3SOER08pu2TOsj4JhT64waitqsgddVs1rMEPgdJHRF5k9VHwoJ7FbLg2hxKwKAavJNgi
           VITE_OPENAI_API_KEY=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

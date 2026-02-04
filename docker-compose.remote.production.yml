@@ -3,7 +3,7 @@ services:
     container_name: platformpkslestari-frontend
     image: platformpkslestari-frontend:latest # Image built by git
     ports:
-      - "5173:80"
+      - "5180:80"
     environment:
       - TZ=Asia/Singapore  # Change this to your desired timezone
       - VITE_APP_API=${VITE_APP_API:-https://esgprod-backend-fastapi.goesg.my}

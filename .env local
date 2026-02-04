@@ -1,4 +1,4 @@
-VITE_APP_API=http://localhost:8000
+VITE_APP_API=https://esgstaging-backend-fastapi.goesg.my
 VITE_APP_PORT=5173
 VITE_OPENAI_API_KEY=your-very-secret-api-key
 VITE_APP_BYPASS_USER_LOGIN=true

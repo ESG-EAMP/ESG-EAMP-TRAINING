@@ -6,7 +6,7 @@ services:
       dockerfile: dockerfile.production
     image: platformpkslestari-frontend:latest # Customize the image name and tag here
     ports:
-      - "5173:80"
+      - "5180:80"
     environment:
       - TZ=Asia/Singapore
       - VITE_APP_API=${VITE_APP_API:-https://esgprod-backend-fastapi.goesg.my}
