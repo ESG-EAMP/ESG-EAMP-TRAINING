@@ -1,9 +1,9 @@
-name: Build and Deploy client-10 
+name: Build and Deploy client-11 
 
 on:
   push:
     branches:
-      - client-10
+      - client-11
 
 jobs:
   build-deploy:
@@ -11,8 +11,8 @@ jobs:
     env:
       VPS_HOST: ${{ secrets.VPS_HOST }}
       VPS_PASSWORD: ${{ secrets.VPS_PASSWORD }}
-      REMOTE_PATH: /root/platformpkslestari/frontend/client-10/production
-      IMAGE_NAME: platformpkslestari-client-10
+      REMOTE_PATH: /root/platformpkslestari/frontend/client-11/production
+      IMAGE_NAME: platformpkslestari-client-11
       DOCKER_COMPOSE_REMOTE: docker-compose.remote.production.yml
       DOCKER_COMPOSE: docker-compose.production.yml
 
