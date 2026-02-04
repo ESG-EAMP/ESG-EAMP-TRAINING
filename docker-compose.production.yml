@@ -1,10 +1,10 @@
 services:
-  platformpkslestari-frontend:
-    container_name: platformpkslestari-frontend
+  platformpkslestari-client-1:
+    container_name: platformpkslestari-client-1
     build:
       context: .
       dockerfile: dockerfile.production
-    image: platformpkslestari-frontend:latest # Customize the image name and tag here
+    image: platformpkslestari-client-1:latest # Customize the image name and tag here
     ports:
       - "5180:80"
     environment:
@@ -16,9 +16,9 @@ services:
       - VITE_APP_BYPASS_ADMIN_LOGIN=${VITE_APP_BYPASS_ADMIN_LOGIN:-false}
       - VITE_APP_SUPER_SECRET_PASSWORD=${VITE_APP_SUPER_SECRET_PASSWORD}
     networks:
-      - platformpkslestari-frontend-network
+      - platformpkslestari-client-1-network
 
 networks:
-  platformpkslestari-frontend-network:
+  platformpkslestari-client-1-network:
     driver: bridge
 
