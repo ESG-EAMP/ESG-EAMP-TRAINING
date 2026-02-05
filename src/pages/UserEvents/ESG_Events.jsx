@@ -9,7 +9,7 @@ const ESG_Events = () => {
     return (
         <div className="container-fluid">
             <Title
-                title="Events"
+                title="Calendar"
                 breadcrumb={[["Events", "/user/events"], "Events"]}
             />
           <LandingEvents landing={false}/>

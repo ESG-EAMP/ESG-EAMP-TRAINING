@@ -67,7 +67,7 @@ import AdminFirmAssessments from './pages/AdminAssessment/AdminFirmAssessments';
 import ViewAssessmentForms from './pages/AdminAssessment/ViewAssessmentForms';
 import ManageReport from './pages/AdminManageReport/ManageReport';
 import { LearningMaterials as PublicLearningMaterials, LearningMaterialDetail, ContactUs, Events, EventPreview, About, PKSlestari } from './pages/Landing';
-import ESG_Events from './pages/UserEvents/ESG_Events';
+import ESG_Events from './pages/UserEvents/';
 import api from './utils/api';
 import LandingLayout from './layouts/LandingLayout/LandingLayout';
 import SuperAdminRegisterInit from './pages/Authentication/Admin/SuperAdminRegisterInit';

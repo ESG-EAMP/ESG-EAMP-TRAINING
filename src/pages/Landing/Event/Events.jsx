@@ -44,7 +44,7 @@ const LandingEvents = ({ landing = false }) => {
                     <div className="container">
                         <div className="row">
                             <div className="col-12 text-center">
-                                <h1 className="display-4 fw-bold">Events</h1>
+                                <h1 className="display-4 fw-bold">Calendar</h1>
                             </div>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ const LandingEvents = ({ landing = false }) => {
 
                 <div>
                     <h1 className="mb-2 fw-bold" style={{ fontSize: '2.5rem' }}>
-                        {selectedStatus} Events
+                        {selectedStatus} Calendar
                     </h1>
                     <p className=" fs-5 opacity-90">
                         Explore opportunities to engage with ESG activities and sustainability programs
