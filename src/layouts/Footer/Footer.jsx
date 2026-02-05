@@ -7,7 +7,7 @@ function Footer() {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-6">
-                        2026 © SME CORP
+                        2026 © SME CORP Negeri Pahang
                     </div>
                     <div className="col-md-6 d-none">
                         <div className="text-md-end footer-links d-none d-md-block">
