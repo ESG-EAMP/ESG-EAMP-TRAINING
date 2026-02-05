@@ -1219,7 +1219,7 @@ function DashboardContent() {
                 {/* Filters */}
                 <div className="row">
                     <div className="col-lg-3 col-md-6 mb-3">
-                        <label className="form-label">Filter by Sector</label>
+                        <label className="form-label">Filter by Sector [Sektor]</label>
                         <select
                             className="form-select"
                             value={selectedSector}
@@ -1264,7 +1264,7 @@ function DashboardContent() {
                         </select>
                     </div>
                     <div className="col-lg-3 col-md-6 mb-3">
-                        <label className="form-label">Filter by Location</label>
+                        <label className="form-label">Filter by Location [Lokasi]</label>
                         <select
                             className="form-select"
                             value={selectedLocation}
