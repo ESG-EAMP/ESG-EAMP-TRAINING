@@ -1322,7 +1322,7 @@ function DashboardContent() {
                                 <i className="fas fa-building"></i>
                             </div>
                             <div className="stat-content">
-                                <h3 className="stat-number">{overallMetrics.firmsWithAssessments}</h3>
+                                <h3 className="stat-number text-primary">{overallMetrics.firmsWithAssessments}</h3>
                                 <p className="stat-label">Cumulative Firms</p>
                             </div>
                         </div>
@@ -1333,7 +1333,7 @@ function DashboardContent() {
                                 <i className="fas fa-clipboard-list"></i>
                             </div>
                             <div className="stat-content">
-                                <h3 className="stat-number">{overallMetrics.totalAssessments}</h3>
+                                <h3 className="stat-number text-primary">{overallMetrics.totalAssessments}</h3>
                                 <p className="stat-label">Cumulative Total Assessments</p>
                             </div>
                         </div>
@@ -1345,7 +1345,7 @@ function DashboardContent() {
                                 <i className="fas fa-trophy"></i>
                             </div>
                             <div className="stat-content">
-                                <h3 className="stat-number">{typeof overallMetrics.averageESGScore === 'number' ? overallMetrics.averageESGScore.toFixed(2) : '0.00'}%</h3>
+                                <h3 className="stat-number text-primary">{typeof overallMetrics.averageESGScore === 'number' ? overallMetrics.averageESGScore.toFixed(2) : '0.00'}%</h3>
                                 <p className="stat-label">Average ESG Score</p>
                             </div>
                         </div>
@@ -1361,7 +1361,7 @@ function DashboardContent() {
                             </div>
                             <div className="esg-summary-content">
                                 <h5 className="esg-summary-title">Environment</h5>
-                                <h3 className="esg-summary-score">{typeof overallMetrics.environmentAverage === 'number' ? overallMetrics.environmentAverage.toFixed(2) : '0.00'}%</h3>
+                                <h3 className="esg-summary-score text-success">{typeof overallMetrics.environmentAverage === 'number' ? overallMetrics.environmentAverage.toFixed(2) : '0.00'}%</h3>
                                 <p className="esg-summary-label">Average Score</p>
                             </div>
                         </div>
@@ -1373,7 +1373,7 @@ function DashboardContent() {
                             </div>
                             <div className="esg-summary-content">
                                 <h5 className="esg-summary-title">Social</h5>
-                                <h3 className="esg-summary-score">{typeof overallMetrics.socialAverage === 'number' ? overallMetrics.socialAverage.toFixed(2) : '0.00'}%</h3>
+                                <h3 className="esg-summary-score text-success">{typeof overallMetrics.socialAverage === 'number' ? overallMetrics.socialAverage.toFixed(2) : '0.00'}%</h3>
                                 <p className="esg-summary-label">Average Score</p>
                             </div>
                         </div>
@@ -1385,7 +1385,7 @@ function DashboardContent() {
                             </div>
                             <div className="esg-summary-content">
                                 <h5 className="esg-summary-title">Governance</h5>
-                                <h3 className="esg-summary-score">{typeof overallMetrics.governanceAverage === 'number' ? overallMetrics.governanceAverage.toFixed(2) : '0.00'}%</h3>
+                                <h3 className="esg-summary-score text-success">{typeof overallMetrics.governanceAverage === 'number' ? overallMetrics.governanceAverage.toFixed(2) : '0.00'}%</h3>
                                 <p className="esg-summary-label">Average Score</p>
                             </div>
                         </div>
