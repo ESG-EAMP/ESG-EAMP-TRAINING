@@ -13,7 +13,7 @@ ChartJS.register(CategoryScale, LinearScale, BarElement, Tooltip, Legend);
 
 // Updated data to show ESG performance by industry
 const data = {
-  labels: ['Manufacturing', 'Services', 'Retail', 'Technology', 'Agriculture', 'Construction'],
+  labels: ['Manufacturing/kilang gua', 'Services', 'Retail', 'Technology', 'Agriculture', 'Construction'],
   datasets: [
     {
       label: 'Environment Score',
