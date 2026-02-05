@@ -77,6 +77,8 @@ import VerifyEmail from './pages/Authentication/User/VerifyEmail';
 import { initTextScaling, TEXT_SCALE_CONFIG } from './utils/textScale';
 import { validateRoleIntegrity, validateRoleFallback } from './utils/roleValidation';
 import { getToken } from './utils/api';
+import HelloWorld from './pages/AdminHelloWorld/HelloWorld';
+
 function useSessionAutoCheck() {
   useEffect(() => {
     const interval = setInterval(async () => {
@@ -297,6 +299,7 @@ function AdminRoutes() {
       <Route path="/pages/registration-tc" element={<MainLayout><ManageRegistrationTC /></MainLayout>} />
       <Route path="/pages/esg-reporting-resources" element={<MainLayout><ManageESGReportingResources /></MainLayout>} />
       <Route path="/manage-report" element={<MainLayout><ManageReport /></MainLayout>} />
+      <Route path="/hello-world" element={<MainLayout><HelloWorld /></MainLayout>} />
     </Routes>
   );
 }
