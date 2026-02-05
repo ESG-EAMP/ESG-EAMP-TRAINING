@@ -208,7 +208,7 @@ function Header() {
                     <button className="button-toggle-menu">
                         <i className="mdi mdi-menu"></i>
                     </button>
-                    Welcome!👋 {user ? user?.first_name ?? user?.fullName ?? user?.email : ''}                    
+                    Hi!👋 {user ? user?.first_name ?? user?.fullName ?? user?.email : ''}                    
 
                     <button
                         className="navbar-toggle"
