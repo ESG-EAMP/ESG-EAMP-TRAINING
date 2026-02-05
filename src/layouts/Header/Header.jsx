@@ -233,7 +233,7 @@ function Header() {
                             className="form-control border-0 bg-light"
                             style={{ width: '200px' }}
                         />
-                        <button className="btn btn-primary ms-2">Search</button>
+                        <button className="btn btn-primary ms-2">Cari</button>
                     </div>
                 </div>
 

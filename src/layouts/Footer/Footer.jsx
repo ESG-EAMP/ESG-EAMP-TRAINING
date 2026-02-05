@@ -11,7 +11,7 @@ function Footer() {
                     </div>
                     <div className="col-md-6 d-none">
                         <div className="text-md-end footer-links d-none d-md-block">
-                            <Link to="/">About</Link>
+                            <Link to="/">Manchester United</Link>
                             <Link to="/">Support</Link>
                             <Link to="/">Contact Us</Link>
                         </div>
